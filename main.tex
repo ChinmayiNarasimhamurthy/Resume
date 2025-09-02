@@ -1,0 +1,160 @@
+%------------------------
+% Resume Template (Modified for Chinmayi N)
+% Header with icons style + Refined Experience/Education formatting
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+\setlength{\footskip}{3.6pt}
+
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\evensidemargin}{-0.45in}
+\addtolength{\textwidth}{0.9in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.0in}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\vspace{-6pt}\scshape\raggedright\large}{}{0em}{}[\titlerule\vspace{-6pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeEduheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {#3} & {#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Chinmayi N} \\ \vspace{2pt}
+    Bangalore, India \\ \vspace{2pt}
+    \scriptsize
+    \faPhone\ +91-8867281479 ~ 
+    \faEnvelope\ \href{mailto:chinmayin861@gmail.com}{chinmayin861@gmail.com} ~
+    \faLinkedin\ \href{https://linkedin.com/in/chinmayi-n-939331264}{linkedin.com/in/chinmayi-n-939331264} ~
+    \faGithub\ \href{https://github.com/ChinmayiNarasimhamurthy}{github.com/ChinmayiNarasimhamurthy}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bharat Electronics Limited (BEL)}{Aug 2025 -- Present}
+      {Software Trainee}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Built React.js, Core Java, and PostgreSQL modules.}
+        \resumeItem{Implemented session management, captcha-secured login, and load testing for 30k+ users.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {National Skill Development Corporation (NSDC)}{Jan 2025 -- Apr 2025}
+      {AI Business Intelligence Analyst}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Applied AI/ML for data analysis with Python, Excel, and Power BI.}
+        \resumeItem{Designed dashboards and insights for decision making.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {TechByHeart}{Aug 2024 -- Sep 2024}
+      {Cyber Security Intern}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Worked with Kali Linux, practiced vulnerability assessment and penetration testing.}
+        \resumeItem{Studied OSI/TCP-IP models and web application vulnerabilities.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{DevOps Integrated Weather Dashboard:} Built real-time weather app using HTML/CSS/JS and OpenWeatherMap API, CI/CD with Jenkins, GitHub Pages, monitoring with Grafana Cloud and Uptime Robot.}
+    \resumeItem{\textbf{Air Quality Index Prediction:} Developed ML models (SVR, Decision Tree, Lasso) and deployed via Flask for real-time AQI predictions and visualization.}
+    \resumeItem{\textbf{AI-Powered Sketch-to-Image Converter:} Created pipeline with CNN, GPT-2, ControlNet, and Stable Diffusion for sketch classification, prompt generation, and image synthesis.}
+    \resumeItem{\textbf{IoT Smart Greenhouse:} Designed Arduino-based greenhouse with sensor monitoring, automated device control, and real-time cloud alerts.}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeItem{Languages: Python, Java, C, HTML, CSS, JavaScript}
+    \resumeItem{Frameworks: React, Node.js, Flask, OpenCV}
+    \resumeItem{Databases: MySQL, PostgreSQL}
+    \resumeItem{DevOps/Tools: Git, GitHub, Jenkins, Linux, VS Code, Arduino IDE}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------------
+\section{Achievements \& Certifications}
+  \resumeSubHeadingListStart
+    \resumeItem{IBM: Finalist - Skills \& 1M1B EcoEquify Hackathon}
+    \resumeItem{NPTEL: Problem Solving in C, Programming in Java, Joy of Computing with Python}
+    \resumeItem{Coursera: Google AI Essentials}
+    \resumeItem{Red Hat: Red Hat System Administration}
+    \resumeItem{Other: Getting Started with Threat Intelligence and Hunting}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEduheading
+      {B.N.M Institute of Technology, Bangalore}{Dec 2022 -- Present}
+      {Bachelor of Engineering in Computer Science \& Engineering - CGPA: 9.5}{}
+
+    \resumeEduheading
+      {Vidyanidhi Independent PU College, Doddaballapur}{Aug 2020 -- Apr 2022}
+      {Pre-University in PCMB - Percentage: 97.8\%}{}
+
+    \resumeEduheading
+      {Lavanya English High School, Doddaballapur}{Jul 2020}
+      {Class 10 - Percentage: 95.36\%}{}
+  \resumeSubHeadingListEnd
+
+%-----------ADDITIONAL EXPERIENCE-----------------
+\section{Additional Experiences}
+  \resumeSubHeadingListStart
+    \resumeItem{Intern - Rotary Bengaluru Reach Out: Supported community service project operations.}
+    \resumeItem{Student Volunteer - Youth for Parivarthan: Contributed to Black Spot Fixing and Recyclothon initiatives.}
+  \resumeSubHeadingListEnd
+
+\end{document}
+
