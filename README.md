@@ -1,7 +1,7 @@
 # Resume
 # Resume — Chinmayi N 
 
-This repository contains my **résumé written in LaTeX**.  
+This repository contains my **Résumé written in LaTeX**.  
 Personal contact details (phone, email) have been replaced with placeholders for privacy.
 
 ---
